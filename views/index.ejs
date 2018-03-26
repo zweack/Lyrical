@@ -20,12 +20,10 @@
         <input type="submit" class="ghost-button" value="Get Lyrics">
       </form>
       <% if(lyric!== ""){ %>
-
         <p>
-          <b>Lyrics :</b>
-          <%= lyric %>
+          <b>Lyrics :</b> <br>
+          <%- lyric %>
         </p>
-
         <% } %>
 
           <% if(error !== null){ %>

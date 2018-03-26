@@ -71,9 +71,9 @@ app.post('/', function (req, res) {
       // remove html comments
       lyrics = lyrics.replace(/(<!--)[^-]*-->/g, '');
       // replace newlines
-      lyrics = lyrics.replace(/<br>/g, '\n');
-      // remove all tags
-      lyrics = lyrics.replace(/<[^>]*>/g, '');
+      // lyrics = lyrics.replace(/<br>/g, '\n');
+      // // remove all tags
+      // lyrics = lyrics.replace(/<[^>]*>/g, '');
       console.log(lyrics);
       
       if (lyrics != "") {

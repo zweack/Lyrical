@@ -1,6 +1,6 @@
 # Lyrical : Find lyrics of your favorite english songs
 
-### Lyrical is under process. Check out the progress **[Live Demo](https://lyrical.herokuapp.com)**
+### Lyrical can fetch the lyrics of your favorite English songs. It scrapes the lyrics after searching on lyrics.wikia.com based on Artist and Song using cheerio. Check out the **[Live Demo](https://lyricalview.herokuapp.com)**
 
 ## To run the app in your local environment
 
